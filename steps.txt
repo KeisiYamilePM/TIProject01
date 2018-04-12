@@ -1,0 +1,37 @@
+el sistema operativo es ubuntu 16
+	https://www.digitalocean.com/
+
+instalar apache2
+	https://www.digitalocean.com/community/tutorials/como-instalar-linux-apache-mysql-php-lamp-en-ubuntu-16-04-es
+
+	comandos:
+		root@Prueba-droplet:/var/www/html/TIProject01# service apache2 stop
+		root@Prueba-droplet:/var/www/html/TIProject01# service apache2 start
+		root@Prueba-droplet:/var/www/html/TIProject01# service apache2 restart
+
+
+instalar php 7
+	https://www.digitalocean.com/community/tutorials/como-instalar-linux-apache-mysql-php-lamp-en-ubuntu-16-04-es
+
+instalar mongodb comunity
+	https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-mongodb-on-ubuntu-16-04
+
+instalar driver mongodb para php
+	http://zetcode.com/db/mongodbphp/
+
+crear una base de datos en mongo
+	https://www.tutorialspoint.com/mongodb/mongodb_create_database.htm
+
+clonar el repo de github
+	....
+
+crear otro archivo php para manejar el almacenamiento en mongodb
+redireccionar la accion del formulario al nuevo archivo de guardado
+crear un archivo para mostrar las estadisticas de la base de datos que se usa
+
+python
+======
+
+python manage.py migrate
+python manage.py runserver 0.0.0.0:80 &
+
